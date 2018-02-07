@@ -34,8 +34,6 @@ public class ProveString {
         int etaPippo = 30;
         
         String nomeX = "Pippo2";
-         
-        containsNumber(nomeX);
         
         System.out.println("Confronto tra due stringhe dichiarate normalmente");
         //La stringa "Pippo" creata e assegnata inizialmente al riferimento nome1, 
@@ -113,13 +111,7 @@ public class ProveString {
         
     }
 
-    private static boolean containsNumber(String parola) {
-        
-        return Pattern.matches(".\\d.",parola);
-        
-        //Set numbers = new Set({1,2,3,4,5,6,7,8,9,0});
-        
-    }
+
     
     
     
